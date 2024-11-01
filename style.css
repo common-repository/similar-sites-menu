@@ -1,0 +1,33 @@
+#similar_sites{
+	width: 100%;
+	height: 30px;
+	background-color: #333;
+	border-bottom: 1px solid black;
+}
+#similar_sites .menu {
+	background-color: inherit;
+	background-image: inherit;
+}
+#my_similar_sites {
+	width:960px;
+	margin: 0 auto;
+}
+#my_similar_sites li { 
+	display:inline; 
+}
+#my_similar_sites li a {
+	background: #333 url('/wp-content/plugins/similar-sites-menu/link.png') 10px 7px no-repeat;
+	font-family: Arial;
+	font-size: 12px;
+	text-decoration: none;
+	float: left;
+	padding: 0px 10px 0px 30px;
+	height: 30px;
+	line-height: 30px;
+	color: white;
+}
+#my_similar_sites li a:hover {
+	background-color: #9B1C26;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+}
